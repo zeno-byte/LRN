@@ -1,9 +1,9 @@
-from flask import Flask, request, redirect
+from flask import Flask, request
 import requests
 
 app = Flask(__name__)
 
-# Replace these with your actual values
+# Replace these with your actual LinkedIn app credentials
 CLIENT_ID = 'YOUR_CLIENT_ID'
 CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
 REDIRECT_URI = 'https://yourusername.github.io/linkedin-auth-redirect'
@@ -29,4 +29,4 @@ def callback():
 
 if __name__ == '__main__':
     app.run(debug=True)
-Add main.py
+
