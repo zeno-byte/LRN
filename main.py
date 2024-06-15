@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Replace these with your actual LinkedIn app credentials
 CLIENT_ID = 'YOUR_CLIENT_ID'
 CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
-REDIRECT_URI = 'https://yourusername.github.io/linkedin-auth-redirect'
+REDIRECT_URI = 'https://zeno-byte.github.io/linkedin-auth-redirect'
 
 @app.route('/')
 def home():
